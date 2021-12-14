@@ -11,6 +11,9 @@
 		7D0B67172767BD2F008A2A33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B67162767BD2F008A2A33 /* ContentView.swift */; };
 		7D0B67192767BD30008A2A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B67182767BD30008A2A33 /* Assets.xcassets */; };
 		7D0B671C2767BD30008A2A33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B671B2767BD30008A2A33 /* Preview Assets.xcassets */; };
+		7D0B67252767D0B6008A2A33 /* Edvora-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B67242767D0B6008A2A33 /* Edvora-Theme.swift */; };
+		7D0B67272767FEF9008A2A33 /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B67262767FEF9008A2A33 /* String-EmptyChecking.swift */; };
+		7D0B673027687891008A2A33 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B672F27687891008A2A33 /* SecureInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		7D0B67162767BD2F008A2A33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D0B67182767BD30008A2A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0B671B2767BD30008A2A33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D0B67242767D0B6008A2A33 /* Edvora-Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Edvora-Theme.swift"; sourceTree = "<group>"; };
+		7D0B67262767FEF9008A2A33 /* String-EmptyChecking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = "<group>"; };
+		7D0B672F27687891008A2A33 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				7D0B67142767BD2F008A2A33 /* EdvoraApp.swift */,
 				7D0B67162767BD2F008A2A33 /* ContentView.swift */,
+				7D0B672F27687891008A2A33 /* SecureInputView.swift */,
+				7D0B67242767D0B6008A2A33 /* Edvora-Theme.swift */,
+				7D0B67262767FEF9008A2A33 /* String-EmptyChecking.swift */,
 				7D0B67182767BD30008A2A33 /* Assets.xcassets */,
 				7D0B671A2767BD30008A2A33 /* Preview Content */,
 			);
@@ -83,6 +92,8 @@
 			dependencies = (
 			);
 			name = Edvora;
+			packageProductDependencies = (
+			);
 			productName = Edvora;
 			productReference = 7D0B67112767BD2F008A2A33 /* Edvora.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,8 @@
 				Base,
 			);
 			mainGroup = 7D0B67082767BD2F008A2A33;
+			packageReferences = (
+			);
 			productRefGroup = 7D0B67122767BD2F008A2A33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0B673027687891008A2A33 /* SecureInputView.swift in Sources */,
 				7D0B67172767BD2F008A2A33 /* ContentView.swift in Sources */,
+				7D0B67272767FEF9008A2A33 /* String-EmptyChecking.swift in Sources */,
+				7D0B67252767D0B6008A2A33 /* Edvora-Theme.swift in Sources */,
 				7D0B67152767BD2F008A2A33 /* EdvoraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
