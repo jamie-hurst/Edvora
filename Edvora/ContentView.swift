@@ -122,7 +122,7 @@ struct ContentView: View {
                         .foregroundColor(.edvoraSymbols)
                         .padding()
                     
-                    SecureInputView("Password", text: $password)
+                    SecureInputView("Password", text: $password, isFocused: passwordIsFocused)
                         .padding(.trailing)
                 }
                 .focused($passwordIsFocused)

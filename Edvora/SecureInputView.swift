@@ -11,13 +11,14 @@ struct SecureInputView: View {
     
     @Binding private var text: String
     @State private var isSecured: Bool = true
+    @State private var isFocused: Bool
     private var title: String
 
     
-    init(_ title: String, text: Binding<String>) {
+    init(_ title: String, text: Binding<String>, isFocused: Bool) {
         self.title = title
         self._text = text
-
+        self.isFocused = isFocused
     }
     
     var body: some View {
@@ -37,7 +38,7 @@ struct SecureInputView: View {
                 
             } label: {
                 Image(systemName: self.isSecured ? "eye.slash.fill" : "eye.fill")
-                    .accentColor(.gray)
+                    .accentColor(.edvoraMaroonSecondary)
             }
         }
     }
