@@ -11,14 +11,12 @@ struct SecureInputView: View {
     
     @Binding private var text: String
     @State private var isSecured: Bool = true
-    @State private var isFocused: Bool
     private var title: String
 
     
-    init(_ title: String, text: Binding<String>, isFocused: Bool) {
+    init(_ title: String, text: Binding<String>) {
         self.title = title
         self._text = text
-        self.isFocused = isFocused
     }
     
     var body: some View {
